@@ -46,33 +46,33 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 功能：
-1、JWT登陆注册
-2、项目列表
-3、项目详情
-4、项目编辑删除
-5、任务列表、任务排序
-6、看板列表、看板排序
+1、JWT登陆注册.\
+2、项目列表.\
+3、项目详情.\
+4、项目编辑删除.\
+5、任务列表、任务排序.\
+6、看板列表、看板排序.\
 
 
 
 ## 技术栈：
-JSX、State、事件处理
-状态提升、组件解耦、组合
-Refs转发
-高阶组件
-Render Props
-错误边界（Error Boundaries）
-React Hook
-etc....
+JSX、State、事件处理.\
+状态提升、组件解耦、组合.\
+Refs转发.\
+高阶组件.\
+Render Props.\
+错误边界（Error Boundaries）.\
+React Hook.\
+etc.....\
 
-Hook + Content/Redux Toolkit 管理客户端全局状态
-React Query 管理服务端全局状态（从API返回的数据
-性能优化、性能监控、性能报告
-自动化测试：单元测试、集成测试、e2e测试
-CSS-in-JS、Grid、Flexbox
-React Router 6
+Hook + Content/Redux Toolkit 管理客户端全局状态.\
+React Query 管理服务端全局状态（从API返回的数据.\
+性能优化、性能监控、性能报告.\
+自动化测试：单元测试、集成测试、e2e测试.\
+CSS-in-JS、Grid、Flexbox.\
+React Router 6.\
 
 ## 收获：
-掌握React的高级应用
-用React Hook抽象逻辑的习惯
-用Typescript进行精确类型约束的能力
+掌握React的高级应用.\
+用React Hook抽象逻辑的习惯.\
+用Typescript进行精确类型约束的能力.\
