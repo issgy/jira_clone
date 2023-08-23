@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const debounce = (func,delay)=>{
+        let timeout;
+
+        // return ()=>{
+        //     if(timeout){
+        //         clearTimeout(timeout)
+        //     }
+        //     timeout = setTimeout(function(){
+        //         func()
+        //     },delay)
+        // }
+        if(timeout){
+                console.log(11111)
+                clearTimeout(timeout)
+            }
+        function x(){
+            
+            timeout = setTimeout(function(){
+                func()
+            },delay)
+        }
+        return x
+    }
+
+const log = debounce(() => console.log('call'),5000)
+log()
+log()
+log()
+    </script>
+</body>
+</html>
