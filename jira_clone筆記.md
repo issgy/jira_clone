@@ -8,7 +8,8 @@ if(isFalsy(value)){
 }
 此时排除了0无法进入if语句内的情况
 4、hooks无法在普通函数中运行，只能在其它hooks中或者组件中运行
-5、debounce
+5、解决输入框打字时，一直发请求的问题
+用debounce
 const debounce = (func,delay)=>{
 let timeout;
 
